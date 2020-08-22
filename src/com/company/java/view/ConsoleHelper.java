@@ -1,8 +1,12 @@
 package view;
 
+import model.Reader;
+
 public class ConsoleHelper {
     BookView bookView = new BookView();
-    public BookView getBookView(){
-        return bookView;
+    ReaderView readerView = new ReaderView();
+
+    public void getView(){
+         bookView.showBookMenu();
     }
 }
