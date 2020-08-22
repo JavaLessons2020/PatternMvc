@@ -6,6 +6,7 @@ public class Runner {
         consoleHelper.getBookView().showBookMenu();
 
         System.out.println("Hello");
+        System.out.println("Java");
 
     }
 }
