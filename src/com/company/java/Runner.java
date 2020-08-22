@@ -5,5 +5,8 @@ public class Runner {
         ConsoleHelper consoleHelper = new ConsoleHelper();
         consoleHelper.getView();
 
+        System.out.println("Hello");
+        System.out.println("Java");
+
     }
 }
