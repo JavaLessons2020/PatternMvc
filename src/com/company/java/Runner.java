@@ -5,5 +5,7 @@ public class Runner {
         ConsoleHelper consoleHelper = new ConsoleHelper();
         consoleHelper.getBookView().showBookMenu();
 
+        System.out.println("Hello");
+
     }
 }
